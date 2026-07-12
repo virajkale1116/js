@@ -2,7 +2,7 @@ const accountId = 1
 let accountEmail = "viraj@gmail.com"
 var accountPassword = "12234"
 accountCity = "Pune"
-let accountHolder
+let accountHolder;
 
 // accountId = 2 Not allowed due to const
 
