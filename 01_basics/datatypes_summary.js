@@ -1,31 +1,31 @@
 // 1. Primitive Datatypes:
 // (7) types: String, Number, null, undefined, bigInt, Symbol
 
-// const score = 100
-// const scoreValue = 100.3
+const score = 100
+const scoreValue = 100.3
 
-// const isLoggedIn = false 
-// const outsideTemp = null // typeof null => object 
-// let userEmail = undefined //Undefined also u can assgin it as undefined 
+const isLoggedIn = false 
+const outsideTemp = null // typeof null => object 
+let userEmail = undefined //Undefined also u can assgin it as undefined 
 
-// console.log(typeof score) // number
-// console.log(typeof scoreValue) // number
-// console.log(typeof isLoggedIn) // boolean
-// console.log(typeof outsideTemp) // object
-// console.log(typeof userEmail) // undefined
+console.log(typeof score) // number
+console.log(typeof scoreValue) // number
+console.log(typeof isLoggedIn) // boolean
+console.log(typeof outsideTemp) // object
+console.log(typeof userEmail) // undefined
 
 
-// const id = Symbol('123')
-// const anotherId = Symbol('123')
-// console.log(id)
-// console.log(anotherId)
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id)
+console.log(anotherId)
 
-// console.log(typeof anotherId) // symbol
-// console.log(id == anotherId)
+console.log(typeof anotherId) // symbol
+console.log(id == anotherId)
 
-// const bigNumber = 2342334476563547n
-// console.log(typeof bigNumber) // bigint
-// console.log(bigNumber)
+const bigNumber = 2342334476563547n
+console.log(typeof bigNumber) // bigint
+console.log(bigNumber)
 
 //***********XXXXXXXXXXXXXXX************
 
