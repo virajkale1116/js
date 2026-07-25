@@ -48,5 +48,5 @@ const myFunc = function(){
     console.log("Hello world!");
     
 }
-console.log(typeof myFunc) // function
+console.log(typeof myFunc) // (obj) function
 
