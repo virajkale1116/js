@@ -34,19 +34,19 @@ console.log(bigNumber)
 
 const heroes = ["Spiderman", "Batman", "Hulk", "Panther"]
 console.log(heroes) 
-console.log(typeof heroes) 
+console.log(typeof heroes) // object
 
 let myObj = {
     name: "Viraj",
     age: 20
 }
 console.log(myObj) 
-console.log(typeof myObj) 
+console.log(typeof myObj) // object
 
 
 const myFunc = function(){
     console.log("Hello world!");
     
 }
-console.log(typeof myFunc)
+console.log(typeof myFunc) // function
 
