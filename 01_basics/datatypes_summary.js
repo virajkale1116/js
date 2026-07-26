@@ -75,5 +75,5 @@ user2.email = "vk@google.com"
 
 
 console.log(user1); // call by reference
-console.log(user2);
+console.log(user2)
 
