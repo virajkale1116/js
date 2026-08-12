@@ -31,7 +31,7 @@ const myArr = [0,1,2,3,4,5]
 
 // slice, splice
 
-console.log("A ", myArr);
+console.log("A ", myArr)
 
 const myn1 = myArr.slice(1, 3);// Just returns the sliced value excluding 3
 console.log(myn1);
