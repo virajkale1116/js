@@ -20,6 +20,7 @@ const regularUser = {
 // console.log(regularUser.fullname?.userfullname.firstName) 
 // // ? => Optional Chaining i.e If the thing before ?. exists, continue. If it's null or undefined, don't throw an error — just return undefined.
 
+const obj1 = {1 : "a", 2: "b"}
 const obj2 = {2 : "a", 4: "b"}
 // obj1 acts as target and obj2 acts as source so better use {empty} as target 
 // const obj3 = { obj1 ,  obj2}
