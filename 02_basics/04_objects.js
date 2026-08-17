@@ -48,12 +48,30 @@ const users = [
     },
 ]
 
-console.log(users[1].email)
-console.log(tinderUser);
+// console.log(users[1].email)
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // gives values in array so now u could even loop them 
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // array in array for every key value pair and every key value pair is in string format 
+// console.log(Object.keys(tinderUser)); // gives values in array so now u could even loop them 
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // array in array for every key value pair and every key value pair is in string format 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')) // return whether the object has this value 
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')) // return whether the object has this value 
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+const course = {
+    courseName : "Js Series",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+// console.log(course.courseInstructor) // Normal Method
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+ 
+// const navbar = ({ company }) => { // Destructuring function
+//     console.log(company);
+// }
+
+// navbar({ company: "Warex" });
