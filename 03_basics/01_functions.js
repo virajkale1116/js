@@ -6,11 +6,11 @@ function sayMyName(){
     console.log("J");
 }
 
-// sayMyName()
+sayMyName()
 
-// function addTwoNumbers(number1, number2){ // Dont need to give type in js
-//     console.log(number1 + number2);
-// }
+function addTwoNumbers(number1, number2){ // Dont need to give type in js
+    console.log(number1 + number2);
+}
 
 function addTwoNumbers(number1, number2){
     return number1 + number2;
@@ -26,15 +26,15 @@ function loginUserMessage(username){
     }
     return `${username} just logged inn!`;
 }
-// console.log(loginUserMessage("Viraj"))
-// console.log(loginUserMessage())
-// console.log(loginUserMessage(5))
+console.log(loginUserMessage("Viraj"))
+console.log(loginUserMessage())
+console.log(loginUserMessage(5))
 
 function calculateCartPrice(value1, value2, ...num1){
     return num1
 }
 // ...  => acts as rest or spread operator according to the need and condition
-// console.log(calculateCartPrice(200, 400, 450, 900));
+console.log(calculateCartPrice(200, 400, 450, 900, 820, 440, 250));
 
 const user = {
     name : "Viraj",
@@ -44,7 +44,7 @@ const user = {
 function handleObject(anyObject){
     console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`);
 }
-// handleObject(user)
+handleObject(user) // Passing user object as an parameter for the function handleObject 
 handleObject({
     name : "RK",
     price : 340
@@ -56,4 +56,4 @@ function returnSecondValue(getArray){
 }
 
 console.log("The second element of the array is",returnSecondValue(myNewArray))
-// console.log(returnSecondValue([12,13,141,51]))
+console.log(returnSecondValue([12,13,141,51]))
