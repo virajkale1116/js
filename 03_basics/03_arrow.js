@@ -17,4 +17,4 @@ const user = {
 
 // console.log(this) // will return null but when u run the same code in browser the global object is windows which is returned and not null
 
-
+//
