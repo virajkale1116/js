@@ -21,11 +21,11 @@
 //     console.log(`Value of i is ${index}`)
 // }
 
-// Continue
-for(let index = 1; index <= 20; index++){
-    if(index == 5){
-        console.log(`Skipped 5 and continued`);
-        continue;
-    }
-    console.log(`Value of i is ${index}`)
-}
+// // Continue
+// for(let index = 1; index <= 20; index++){
+//     if(index == 5){
+//         console.log(`Skipped 5 and continued`);
+//         continue;
+//     }
+//     console.log(`Value of i is ${index}`)
+// }
