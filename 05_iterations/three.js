@@ -31,7 +31,7 @@ map.set('IN', "India")
 
 for(const [key, value] of map){
     // console.log(key, ":-", value)
-    console.log(`${key} :- ${value}`)
+    // console.log(`${key} :- ${value}`)
 }
 
 // const myObject = {
@@ -49,5 +49,11 @@ for(const [key, value] of myObject){
 }
 
 // for...of works on iterables like arrays, strings, and Maps. Plain objects are not iterable by default, so using for...of directly on myObject throws a TypeError.
+
+// Execution using for-in loop :
+// for(const key in myObject){
+//     // console.log(myObject[key])
+//     console.log(`${key} :- ${myObject[key]}`)
+// }
 
 // To iterate over object properties, use for...in or Object.entries() with for...of
