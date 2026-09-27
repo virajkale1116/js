@@ -32,7 +32,7 @@ map.set('IN', "India")
 for(const [key, value] of map){
     // console.log(key, ":-", value)
     // console.log(`${key} :- ${value}`)
-    // console.log(key)
+    // this we use for destructuring i.e for having key and value seperately otherwise instead of [key, value] we could have just written key and it would have given us key and value both but as a single unit inside an array
 }
 
 // const myObject = {
