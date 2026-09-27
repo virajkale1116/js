@@ -32,6 +32,7 @@ map.set('IN', "India")
 for(const [key, value] of map){
     // console.log(key, ":-", value)
     // console.log(`${key} :- ${value}`)
+    // console.log(key)
 }
 
 // const myObject = {
@@ -44,9 +45,9 @@ const myObject = {
     game2: "Spiderman"
 }
 
-for(const [key, value] of myObject){
-    console.log(`${key} :- ${value}`)
-}
+// for(const [key, value] of myObject){
+//     console.log(`${key} :- ${value}`)
+// }
 
 // for...of works on iterables like arrays, strings, and Maps. Plain objects are not iterable by default, so using for...of directly on myObject throws a TypeError.
 
