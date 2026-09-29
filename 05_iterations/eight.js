@@ -33,3 +33,6 @@ const totalAmount = shoppingCart.reduce((acc, item) => {
 }, 0)
 
 console.log(`Total AMOUNT: ${totalAmount}`)
+
+// For == operator, JS converts null to undefined that's why null == 0 is false
+// For relational operators (>,<,>=,<=) , JS converts null to number and Number(null) is 0. That's why null >0 is false and null >= 0 is true
